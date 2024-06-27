@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+    --rojo: #eb0606;
+    --fond-blanco: #ffffff;
+    --fondo-verde: #0aa30580;
+    --azul-medio: #3970BE;
+    
+    --cinza-texto: #444444;
+    --cinza-claro: #ECECEC;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Press Start 2P", cursive, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: var(--fondo-blanco);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 55px;
+    color: black;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* ESTILOS DO HEADER */
+
+.encabezado {
+    background-color: rgb(7, 0, 0);
+    display: flex;
+    justify-content: center;
+    top: 0;
+    min-height: 80px;
+    width: 100%;
+    padding: 0 25px;
+    }
+
+.logo-izq{
+    background-image: url(/img/encabezado/dead-pool.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+    width: 50px;
+}
+
+.logo-derecha{
+    background-image: url(/img/encabezado/lego.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+    width: 50px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 15px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+
+}
+
+.container{
+    background-color: yellow;
+    display: flex;     
+    height: 1235px;
+    width: 1380px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 80px;   
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    height: 232px;
+    bottom: 0;
+    font-size: .5em;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content .social-media {
+    margin-top: 10px;
+}
+
+.footer-content .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-content .social-media a:hover {
+    text-decoration: underline;
+}
+
+
+
+.encabezado__videos {
+    background-image: url(../img/encabezado/video_call.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+}
+
+/* ESTILOS DA SEÇÃO VÍDEOS */
+
+.mensaje {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mensaje__imagen {
+    width: 30%;
+}
+
+.mensaje__titulo {
+    color: var(--azul-medio);
+    font-weight: bold;
+    font-size: 21px;
+}
+
+
+
+
+@media(min-width: 834px) {
+
+    body {
+        height: 100vh;
+    }
+
+}

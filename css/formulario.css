@@ -1,0 +1,12 @@
+.formulario{
+    width: 34.20%;
+    height: 41.86%;
+    background-color: black;
+    margin-top: 1rem;
+    display: grid;
+    text-align: start;
+    column-gap: 1rem;
+    row-gap: 10px;
+    grid-template-columns: auto 1fr;
+    font-size: .5em;
+}
