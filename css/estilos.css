@@ -20,7 +20,6 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    
     font-size: 55px;
     color: black;
     box-sizing: border-box;
@@ -80,7 +79,8 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: white;
-    padding: 80px;   
+    padding: 20px;  
+    margin-top: 40px; 
 }
 
 
@@ -120,33 +120,6 @@ footer {
 }
 
 
-
-.encabezado__videos {
-    background-image: url(../img/encabezado/video_call.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 15px;
-}
-
-/* ESTILOS DA SEÇÃO VÍDEOS */
-
-.mensaje {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.mensaje__imagen {
-    width: 30%;
-}
-
-.mensaje__titulo {
-    color: var(--azul-medio);
-    font-weight: bold;
-    font-size: 21px;
-}
 
 
 

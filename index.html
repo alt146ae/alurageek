@@ -108,27 +108,27 @@
         </div>
         <div class="formulario">
             <form class="container__formulario" data-formulario>
-                <h2 class="formulario__titulo">¡Envía un vídeo!</h2>
+                <h2 >AGREGAR PRODUCTO:</h2>
                 <div class="formulario__campo">
-                    <label class="campo__etiqueta" for="url">Link del video</label>
+                    <!-- <label class="campo__etiqueta" for="url">Link del video</label> -->
                     <input name="url" class="campo__escrita" required
-                        placeholder="Por ejemplo: https://www.youtube.com/embed/QjOWz9avkg8" id='url' data-url />
+                        placeholder="nombre..." id='url' data-url />
                 </div>
-
-
                 <div class="formulario__campo">
-                    <label class="campo__etiqueta" for="titulo">Título del vídeo</label>
+                    <!-- <label class="campo__etiqueta" for="titulo">Título del vídeo</label> -->
                     <input name="titulo" class="campo__escrita" required
-                        placeholder="En este campo, pon el nombre del vídeo" id='titulo' data-titulo />
+                        placeholder="precio..." id='titulo' data-titulo />
                 </div>
 
                 <div class="formulario__campo">
-                    <label class="campo__etiqueta" for="imagem">Imagen de perfil</label>
-                    <input name="imagem" class="campo__escrita" required placeholder="Inserta la URL de la imagen"
+                    <!-- <label class="campo__etiqueta" for="imagem">Imagen de perfil</label> -->
+                    <input name="imagem" class="campo__escrita" required placeholder="imagen..."
                         id='imagem' data-imagen />
                 </div>
-
-                <input class="formulario__boton" type="submit" />
+                    <div class="botones">
+                <input class="formulario__boton botonEnviar" type="submit" value="Enviar"/>
+                <input class="formulario__boton botonLimpiar" type="submit" value="Limpiar"/>
+            </div>
             </form>
         </div>
     </section>
