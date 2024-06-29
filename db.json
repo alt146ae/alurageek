@@ -2,63 +2,63 @@
   "fotos":
 [
     {
-      "path": "/img/populares/c.png",
+      "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh450.png",
       "titulo":"Death Strange",
       "precio":"$300.00",
       "alt": "Death-Strange",
       "id": 1
     },
     {
-      "path": "/img/populares/doctor-strange.png",
+      "imagenpath": "/img/populares/doctor-strange.png",
       "titulo":"Doctor Strange",
       "precio":"$200.00",
       "alt": "doctor-strange",
       "id": 2
     },
     {
-      "path": "/img/populares/ebony-maw.png",
+      "imagenpath": "/img/populares/ebony-maw.png",
       "titulo":"Ebony Maw",
       "precio":"$250.00",
       "alt": "ebony-maw",
       "id": 3
     },
     {
-      "path": "/img/populares/ironman-mark50.png",
+      "imagenpath": "/img/populares/ironman-mark50.png",
       "titulo":"Ironman Mark 50",
       "precio":"$150.00",
       "alt": "ironman-mark50",
       "id": 4
     },
     {
-      "path": "/img/populares/karl-mordo.png",
+      "imagenpath": "/img/populares/karl-mordo.png",
       "titulo":"Karl Mordo",
       "precio":"$100.00",
       "alt": "karl-mordo",
       "id": 5
     },
     {
-      "path": "/img/populares/scarletwitch.png",
+      "imagenpath": "/img/populares/scarletwitch.png",
       "titulo":"Scarlet Witch",
       "precio":"$180.00",
       "alt": "scarletwitch",
       "id": 6
     },
     {
-      "path": "/img/populares/sinister-strange.png",
+      "imagenpath": "/img/populares/sinister-strange.png",
       "titulo":"Sinister Strange",
       "precio":"$300.00",
       "alt": "sinister-strange",
       "id": 7
     },
     {
-      "path": "/img/populares/spiderman.png",
+      "imagenpath": "/img/populares/spiderman.png",
       "titulo":"Spiderman",
       "precio":"$200.00",
       "alt": "spiderman",
       "id": 8
     },
     {
-      "path": "/img/populares/wong.png",
+      "imagenpath": "/img/populares/wong.png",
       "titulo":"Wong",
       "precio":"$150.00",
       "alt": "wong",

@@ -29,11 +29,11 @@
         </section>
     </header>
 
-    <section class="container">
+    <main class="container">
         <div class="productos">
             <h2>MIS PRODUCTOS</h2>
             <ul class="card__container" alt="videos alura" data-lista>
-                <li class="card__item">
+                <!-- <li class="card__item">
                     <img src="./img/card/1.png" class="img" alt="logo canal alura">
                     <div class="descripcion-card">
                         <h3 class="item item1">FIGURA 1</h3>
@@ -103,7 +103,7 @@
                         <p class="item item2"> $236.00</p>
                         <img  src="./img/card/trash.png" class="item item3" alt="eliminar"
                     </div>
-                </li>
+                </li> -->
             </ul>
         </div>
         <div class="formulario">
@@ -112,26 +112,26 @@
                 <div class="formulario__campo">
                     <!-- <label class="campo__etiqueta" for="url">Link del video</label> -->
                     <input name="url" class="campo__escrita" required
-                        placeholder="nombre..." id='url' data-url />
+                        placeholder="nombre..." id='url' data-titulo />
                 </div>
                 <div class="formulario__campo">
                     <!-- <label class="campo__etiqueta" for="titulo">Título del vídeo</label> -->
                     <input name="titulo" class="campo__escrita" required
-                        placeholder="precio..." id='titulo' data-titulo />
+                        placeholder="precio..." id='titulo' data-precio />
                 </div>
 
                 <div class="formulario__campo">
                     <!-- <label class="campo__etiqueta" for="imagem">Imagen de perfil</label> -->
                     <input name="imagem" class="campo__escrita" required placeholder="imagen..."
-                        id='imagem' data-imagen />
+                        id='imagem' data-pathimagen />
                 </div>
                     <div class="botones">
                 <input class="formulario__boton botonEnviar" type="submit" value="Enviar"/>
-                <input class="formulario__boton botonLimpiar" type="submit" value="Limpiar"/>
+                <input class="formulario__boton botonLimpiar" type="submit2" value="Limpiar"/>
             </div>
             </form>
         </div>
-    </section>
+    </main>
 
     <footer>
         <div class="footer-content">
@@ -147,7 +147,8 @@
 
     </footer>
 
-<script src="./js/conexionAPI.js"></script>
+<script src="./js/mostarFotos.js" type="module"></script>
+<script src="./js/crearFoto.js" type="module"></script>
 </body>
 
 
