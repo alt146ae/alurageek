@@ -8,9 +8,13 @@ async function crearFoto(e) {
     const titulo = document.querySelector("[data-titulo]").value
     const precio = document.querySelector("[data-precio]").value
     const pathimagen = document.querySelector("[data-pathimagen]").value
-
     await conexionAPI.crearFotos (titulo,precio,pathimagen)
-    alert ("imagen actualizada")
+      
 }
 
+
     formulario.addEventListener("submit",e => crearFoto (e))
+    //alert ("Imagen actualizada")
+
+
+    

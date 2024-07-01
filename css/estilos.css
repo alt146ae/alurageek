@@ -72,15 +72,17 @@ body {
 }
 
 .container{
-    background-color: yellow;
+    /*background-color: yellow;*/
     display: flex;     
     height: 1235px;
     width: 1380px;
     display: flex;
     justify-content: space-around;
     background-color: white;
+    color: grey;
     padding: 20px;  
     margin-top: 40px; 
+
 }
 
 

@@ -18,8 +18,20 @@ async function crearFotos (titulo,precio,imagenpath){
     const conexionConvertida = conexion.json()  
     return conexionConvertida
 }
+////eliminar fotos /////
 
+async function eliminarFoto(id) {
+  const conexion = await fetch(`http://localhost:3001/fotos/${id}`, {
+      method: "DELETE"
+  });
+  const conexionConvertida = await conexion.json();
+  return conexionConvertida;
+}
+
+
+////////////////////////
 export const conexionAPI ={
-    listarFotos, crearFotos
+    listarFotos, crearFotos, 
+    eliminarFoto
 }
 

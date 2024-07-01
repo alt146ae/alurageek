@@ -1,84 +1,9 @@
 {
   "fotos": [
     {
-      "titulo": "Death Strange",
-      "precio": "$300.00",
-      "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh450.png",
-      "alt": "Death-Strange",
-      "id": 1
-    },
-    {
-      "titulo": "Doctor Strange",
-      "precio": "$200.00",
-      "imagenpath": "/img/populares/doctor-strange.png",
-      "alt": "doctor-strange",
-      "id": 2
-    },
-    {
-      "titulo": "Ebony Maw",
+      "id": "8df4",
+      "titulo": "flash",
       "precio": "$250.00",
-      "imagenpath": "/img/populares/ebony-maw.png",
-      "alt": "ebony-maw",
-      "id": 3
-    },
-    {
-      "titulo": "Ironman Mark 50",
-      "precio": "$150.00",
-      "imagenpath": "/img/populares/ironman-mark50.png",
-      "alt": "ironman-mark50",
-      "id": 4
-    },
-    {
-      "titulo": "Karl Mordo",
-      "precio": "$100.00",
-      "imagenpath": "/img/populares/karl-mordo.png",
-      "alt": "karl-mordo",
-      "id": 5
-    },
-    {
-      "titulo": "Scarlet Witch",
-      "precio": "$180.00",
-      "imagenpath": "/img/populares/scarletwitch.png",
-      "alt": "scarletwitch",
-      "id": 6
-    },
-    {
-      "titulo": "Sinister Strange",
-      "precio": "$300.00",
-      "imagenpath": "/img/populares/sinister-strange.png",
-      "alt": "sinister-strange",
-      "id": 7
-    },
-    {
-      "titulo": "Spiderman",
-      "precio": "$200.00",
-      "imagenpath": "/img/populares/spiderman.png",
-      "alt": "spiderman",
-      "id": 8
-    },
-    {
-      "titulo": "Wong",
-      "precio": "$150.00",
-      "imagenpath": "/img/populares/wong.png",
-      "alt": "wong",
-      "id": 9
-    },
-    {
-      "id": "ea1d",
-      "titulo": "Reggae Man Batsuit",
-      "precio": "$250.00",
-      "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh450.png"
-    },
-    {
-      "id": "59d7",
-      "titulo": "Reggae Man Batsuit",
-      "precio": "$300.00",
-      "imagenpath": "Reggae Man Batsuit"
-    },
-    {
-      "id": "4a81",
-      "titulo": "Reggae Man Batsuit",
-      "precio": "$400.00",
       "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh450.png"
     }
   ]

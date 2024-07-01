@@ -4,7 +4,7 @@
     margin: 0;
     width: 758px;
     height: 50vh;
-    overflow: auto;
+    
 
 }
 
@@ -52,6 +52,7 @@
     align-items: center;
     padding-left: 15px;
     font-size: .5em;
+    color: black;
 }
 
 .productos h2 {
@@ -59,10 +60,12 @@
     /*  background-color: green;*/
     padding-top: 15px;
     font-size: 40px;
+    color: black;
 }
 
 .card__item p {
     font-size: .5em;
+    color: black;
     
 }
 
