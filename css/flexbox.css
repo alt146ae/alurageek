@@ -4,7 +4,7 @@
     margin: 0;
     width: 758px;
     height: 50vh;
-    
+
 
 }
 
@@ -13,19 +13,23 @@
     width: 90%;
     height: 48%;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Define dos columnas de igual tamaño */
+    grid-template-columns: 1fr 1fr;
+    /* Define dos columnas de igual tamaño */
     grid-template-rows: repeat(2, auto);
-    gap: 10px; /* Espacio entre los elementos */
+    gap: 10px;
+    /* Espacio entre los elementos */
     font-size: .5em;
     padding: 10px;
     margin-top: -15px;
+
 }
+
 .item {
     padding: 2px;
     /*border: 1px solid #ddd;*/
     /*background-color: #f9f9f9;*/
     text-align: center;
-    
+
 }
 
 .item1 {
@@ -40,9 +44,13 @@
 
 
 .item3 {
-    justify-self: right; /* Alinea el tercer elemento a la derecha */
+    justify-self: right;
+    /* Alinea el tercer elemento a la derecha */
+    margin-top: -25px;
     margin-right: -25px;
+    width: 50px;
 }
+
 
 
 
@@ -66,7 +74,7 @@
 .card__item p {
     font-size: .5em;
     color: black;
-    
+
 }
 
 
@@ -100,5 +108,138 @@
     height: 258px;
     width: 196px;
     box-shadow: -5px 6px 3.3px 0 #464343;
+
+}
+/* ////////////////////FULL HD ///////////////*/
+@media only screen and (max-width: 1920px) {
+
+    .productos {
+        /*background-color: red;*/
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        height: 850px;
+    }
+
+    .card__container{
+        /*background-color: aqua;*/
+        height: 80%;
+    }
+
+}
+
+/* /////PC 1366 //////// */
+@media only screen and (max-width: 1366px) {
+    .productos {
+        /*background-color: red;*/
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        height: 500px;
+    }
+
+    .card__container{
+        /*background-color: aqua;*/
+        height: 71%;
+    }
+
+}
+
+
+
+
+
+/* ///////////////////////TABLET  //////////////////// */
+@media only screen and (max-width: 1040px) {
+
+
+    .productos {
+        /*background-color: red;*/
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        height: 500px;
+    }
+
+    .card__container{
+        /*background-color: aqua;*/
+        height: 70%;
+    }
+
+
+}
+
+
+
+
+/* ////////// CElular //////////// */
+@media only screen and (max-width: 740px) {
+
+    .productos {
+        /*background-color: red;*/
+        justify-content: center;
+        width: 100%;
+        height: 280px;
+        margin-top: -370px;
+
+
+    }
+
+    .card__item {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: var(--fondo-verde);
+        height: 240PX;
+        width: 100%;
+        margin-bottom: -50px;
+
+
+    }
+
+    .descripcion-card {
+        /*background-color: aqua;*/
+        margin-top: -25px;
+        width: 95%;
+    }
+
+
+
+    .card__container {
+        /*background-color: red;*/
+        width: 90%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Dos columnas de igual tamaño */
+        grid-template-rows: auto;
+        /* Altura de las filas automática */
+        gap: 100px;
+        /* Espacio entre los elementos */
+        font-size: .5em;
+        box-shadow: none;
+        overflow: auto;
+    }
+
+
+
+    .img {
+        width: 196px;
+        height: 174px;
+        padding: 15px 5px 15px 25px;
+    }
+
+    .lego {
+        width: 200px;
+        height: 180px;
+    }
+
+    .item3 {
+        justify-self: right;
+        /* Alinea el tercer elemento a la derecha */
+        margin-top: -25px;
+        margin-right: -20px;
+        width: 40px;
+
+    }
 
 }

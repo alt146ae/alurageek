@@ -1,4 +1,4 @@
-.formulario{
+.formulario {
     width: 472px;
     height: 517px;
     display: grid;
@@ -8,18 +8,19 @@
     grid-template-columns: auto 1fr;
     font-size: .4em;
 }
-.formulario h2{
+
+.formulario h2 {
     padding-top: 5px;
     font-size: 35px;
-    
+
 }
 
-.formulario__titulo{
+.formulario__titulo {
     width: 392px;
     height: 48px;
 }
 
-.formulario__campo{
+.formulario__campo {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
@@ -27,8 +28,8 @@
     border-radius: 20px;
 }
 
-.botones{
-   /* background-color: aqua;*/
+.botones {
+    /* background-color: aqua;*/
     width: 100%;
     height: 55px;
     margin-top: 40px;
@@ -37,21 +38,74 @@
     justify-content: space-between;
 }
 
-.formulario__boton{
+.formulario__boton {
     /*background-color: red;*/
     width: 188px;
     height: 55px;
 }
-.botonEnviar{
+
+.botonEnviar {
     background-color: #03318C;
     color: white;
     border: PowderBlue 5px solid;
     border-radius: 20px;
 }
 
-.botonLimpiar{
+.botonLimpiar {
     background-color: #ffffff;
     color: #03318C;
     border: PowderBlue 5px solid;
     border-radius: 20px;
+}
+
+
+/* ///////CELULAR///////// */
+@media only screen and (max-width: 740px) {
+
+    .formulario {
+        /*background-color: red;*/
+        width: 100%;
+        height: 400px;
+        margin-top: -220px;
+    }
+    
+
+    .container__formulario {
+        /*background-color: yellow;*/
+        display: grid;
+        justify-content: space-around;
+        margin-left: 25px;
+        width: 100%;
+        height: 95%;
+        font-size: .3em;
+        
+    }
+       .formulario__titulo {
+
+        width: 92px;
+        height: 48px;
+    }
+
+    .formulario__campo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        border: PowderBlue 5px solid;
+        border-radius: 20px;
+    }
+
+    .campo__escrita {
+
+        height: auto;
+        width: 100%;
+        border-radius: 20px;
+        font-size: 2em;
+    }
+    .botonEnviar {
+        width: 250px;
+    }
+    .botonLimpiar {
+       width: 250px;
+    }
+
 }

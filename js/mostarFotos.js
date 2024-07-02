@@ -6,7 +6,7 @@ const lista = document.querySelector("[data-lista]")
 function crearCard(id, titulo, precio, path) {
     const fotos = document.createElement("li");
     fotos.className = "card__item"
-    fotos.innerHTML = `<img src="${path}" class="img" alt="logo canal alura">
+    fotos.innerHTML = `<img src="${path}" class="img lego" alt="logo canal alura">
                     <div class="descripcion-card">
                         <h3 class="item item1">${titulo}</h3>
                         <p class="item item2">${precio}</p>

@@ -5,7 +5,7 @@
     --fond-blanco: #ffffff;
     --fondo-verde: #0aa30580;
     --azul-medio: #3970BE;
-    
+
     --cinza-texto: #444444;
     --cinza-claro: #ECECEC;
     box-sizing: border-box;
@@ -24,6 +24,7 @@ body {
     color: black;
     box-sizing: border-box;
     text-align: center;
+    overflow: hidden;
 }
 
 /* ESTILOS DO HEADER */
@@ -36,9 +37,9 @@ body {
     min-height: 80px;
     width: 100%;
     padding: 0 25px;
-    }
+}
 
-.logo-izq{
+.logo-izq {
     background-image: url(/img/encabezado/dead-pool.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -47,7 +48,7 @@ body {
     width: 50px;
 }
 
-.logo-derecha{
+.logo-derecha {
     background-image: url(/img/encabezado/lego.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -56,7 +57,7 @@ body {
     width: 50px;
 }
 
-.titulo{
+.titulo {
     display: flex;
     justify-content: center;
     padding: 15px;
@@ -66,23 +67,22 @@ body {
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
-    "MORF" 15,
-    "SHLN" 50;
+        "MORF" 15,
+        "SHLN" 50;
 
 }
 
-.container{
+.container {
     /*background-color: yellow;*/
-    display: flex;     
+    display: flex;
     height: 1235px;
     width: 1380px;
     display: flex;
     justify-content: space-around;
     background-color: white;
     color: grey;
-    padding: 20px;  
-    margin-top: 40px; 
-
+    padding: 20px;
+    margin-top: 40px;
 }
 
 
@@ -101,6 +101,7 @@ footer {
 
 .footer-content {
     max-width: 1200px;
+    
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -121,15 +122,176 @@ footer {
     text-decoration: underline;
 }
 
+/* /////////////////FULL HD //////////////////*/
+@media only screen and (max-width: 1920px) {
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        height: 155px;
+        bottom: 0;
+        font-size: .5em;
+    }
+.footer-content{
+    gap: 20px;
+}
+
+}
 
 
 
+/* /////////// hd  /////////////////  */
+@media only screen and (max-width: 1440px) {
+
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        height: 165px;
+        bottom: 0;
+        font-size: .5em;
+    }
+.footer-content{
+    gap: 20px;
+}
+
+}
 
 
-@media(min-width: 834px) {
+/* ////////////////pc ////////////////// */
 
+@media only screen and (max-width: 1366px) {
+
+    .container {
+        /*background-color: yellow;*/
+        display: flex;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: space-around;
+        background-color: white;
+        color: grey;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+
+    footer {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    font-size: .2em;
+}
+
+.footer-content {
+    max-width: 1200px;
+    gap: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+/* ///////////////////////TABLET  //////////////////// */
+@media only screen and (max-width: 1040px) {
+
+    .container {
+        /*background-color: yellow;*/
+        display: flex;
+        height: 1024px;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+        background-color: white;
+        color: grey;
+        padding: 100px;
+        margin-top: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        gap: 100px;
+        height: 75px;
+        bottom: 0;
+        font-size: .2em;
+    }
+
+    .footer-content{
+        gap: 7px;
+    }
+}
+
+
+
+/* //////CELULAR////// */
+
+@media only screen and (max-width: 740px) {
+    /* Aquí puedes colocar reglas de estilo específicas para pantallas pequeñas */
+
+    /* Ejemplo de ajuste de tamaño de fuente */
     body {
-        height: 100vh;
+        font-size: 114px;
+        overflow-x: hidden;
+        
+    }
+    /* Ejemplo de ajuste de diseño de grid o flexbox */
+    .container {
+        /*background-color: red;*/
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 88vh;       
+    }
+
+    .logo-izq {
+        background-image: url(/img/encabezado/dead-pool.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 15px;
+        width: 70px;
+    }
+
+    .logo-derecha {
+        background-image: url(/img/encabezado/lego.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 15px;
+        width: 70px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        gap: 100px;
+        height: 75px;
+        bottom: 0;
+        font-size: .1em;
+    }
+
+    .footer-content{
+        gap: 7px;
     }
 
 }
+
+
+
+
