@@ -294,6 +294,16 @@ footer {
 
 @media only screen and (max-width: 360px) {
 
+    .encabezado {
+        background-color: rgb(7, 0, 0);
+        display: flex;
+        justify-content: center;
+        top: 0;
+        min-height: 80px;
+        width: 360px;
+        padding: 0 25px;
+    }
+
     .container {
         background-color: red;
         display: flex;
