@@ -247,7 +247,7 @@
 
     .productos {
         
-        margin-top: 0;
+        margin-top: 20px;
         /*background-color: green;*/
         justify-content: center;
         width: 360px;
@@ -256,7 +256,7 @@
     .card__container {
         background-color:aqua;
         width: 330px;
-        height: 90%;
+        height: 300px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* Dos columnas de igual tamaño */
@@ -266,7 +266,7 @@
         /* Espacio entre los elementos */
         font-size: .5em;
         box-shadow: none;
-        overflow: auto;
+        
     }
 
     .card__item {
@@ -280,8 +280,8 @@
     .productos h2 {
 
         /*  background-color: green;*/
-        padding-top: 15px;
-        font-size: .1em;
+        padding-top: -10px;
+        font-size: .2em;
         color: black;
     }
 
