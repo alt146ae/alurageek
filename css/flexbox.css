@@ -270,7 +270,7 @@
         /* Altura de las filas automática */
         gap: 1px;
         /* Espacio entre los elementos */
-        font-size: .5em;
+        font-size: .2em;
         box-shadow: none;
         overflow: auto;
         
@@ -352,7 +352,7 @@
         /* Altura de las filas automática */
         gap: 1px;
         /* Espacio entre los elementos */
-        font-size: .5em;
+        font-size: .2em;
         box-shadow: none;
         overflow: auto;
         

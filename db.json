@@ -1,28 +1,3 @@
 {
-  "fotos": [
-    {
-      "id": "411d",
-      "titulo": "flash",
-      "precio": "$200",
-      "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh087.original.png"
-    },
-    {
-      "id": "e171",
-      "titulo": "Reggae Man Batsuit",
-      "precio": "$300.00",
-      "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh450.png"
-    },
-    {
-      "id": "b8a1",
-      "titulo": "flash",
-      "precio": "$200",
-      "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh087.original.png"
-    },
-    {
-      "id": "9c30",
-      "titulo": "reverse flash",
-      "precio": "$250.00",
-      "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh471.png"
-    }
-  ]
+  "fotos": []
 }
