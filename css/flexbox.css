@@ -178,9 +178,9 @@
     .productos {
         /*background-color: red;*/
         justify-content: center;
-        width: 100%;
+        width: 740px;
         height: 280px;
-        margin-top: -370px;
+        margin-top: -290px;
 
 
     }
@@ -192,8 +192,6 @@
         height: 240PX;
         width: 100%;
         margin-bottom: -50px;
-
-
     }
 
     .descripcion-card {
@@ -248,12 +246,37 @@
 @media only screen and (max-width: 360px) {
 
     .productos {
-        background-color: red;
+        
+        margin-top: 0;
+        /*background-color: green;*/
         justify-content: center;
-        width: 90%;
-        height: 200px;
+        width: 360px;
+        height: 330px;
+    }
+    .card__container {
+        background-color:aqua;
+        width: 330px;
+        height: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Dos columnas de igual tamaño */
+        grid-template-rows: auto;
+        /* Altura de las filas automática */
+        gap: 10px;
+        /* Espacio entre los elementos */
+        font-size: .5em;
+        box-shadow: none;
+        overflow: auto;
     }
 
+    .card__item {
+        display: flex;
+        flex-wrap: wrap; 
+        background-color: var(--fondo-verde);
+        height: 240PX;
+        width: 140px;
+        margin-bottom: 50px;
+    }
     .productos h2 {
 
         /*  background-color: green;*/
@@ -262,8 +285,11 @@
         color: black;
     }
 
-    .card__container{
-        /*background-color: aqua;*/
-        height: 70%;
+  
+    .lego {
+        width: 190px;
+        height: 170px;
+        margin-left: 10px;
     }
+
 }
