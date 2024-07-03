@@ -250,8 +250,16 @@
     .productos {
         background-color: red;
         justify-content: center;
-         width: 90%;
+        width: 90%;
         height: 200px;
+    }
+
+    .productos h2 {
+
+        /*  background-color: green;*/
+        padding-top: 15px;
+        font-size: .1em;
+        color: black;
     }
 
     .card__container{
