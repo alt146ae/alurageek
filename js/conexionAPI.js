@@ -1,12 +1,12 @@
 async function listarFotos (){
-    const conexion = await fetch ("http://localhost:3001/fotos");
+    const conexion = await fetch ("https://my-json-server.typicode.com/alt146ae/alura-geek-api/fotos");
     const conexionConvertida = conexion.json();
     //console.log(conexionConvertida);
     return conexionConvertida
 }
 
 async function crearFotos (titulo,precio,imagenpath){
-    const conexion = await fetch ("http://localhost:3001/fotos",{
+    const conexion = await fetch ("https://my-json-server.typicode.com/alt146ae/alura-geek-api/fotos",{
       method:"POST",
       headers:{"Content-type":"application/json"},
       body: JSON.stringify({
@@ -21,7 +21,7 @@ async function crearFotos (titulo,precio,imagenpath){
 ////eliminar fotos /////
 
 async function eliminarFoto(id) {
-  const conexion = await fetch(`http://localhost:3001/fotos/${id}`, {
+  const conexion = await fetch(`https://my-json-server.typicode.com/alt146ae/alura-geek-api/fotos/${id}`, {
       method: "DELETE"
   });
   const conexionConvertida = await conexion.json();
