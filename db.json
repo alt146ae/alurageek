@@ -13,12 +13,6 @@
       "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh471.png"
     },
     {
-      "id": "cd72",
-      "titulo": "Reggae Man Batsuit",
-      "precio": "$300.00",
-      "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh450.png"
-    },
-    {
       "id": "e069",
       "titulo": "flash",
       "precio": "$200",
@@ -67,12 +61,6 @@
       "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh471.png"
     },
     {
-      "id": "d1d3",
-      "titulo": "flash",
-      "precio": "$300.00",
-      "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh087.original.png"
-    },
-    {
       "id": "4a55",
       "titulo": "flash",
       "precio": "$250.00",
@@ -82,12 +70,6 @@
       "id": "5f35",
       "titulo": "flash",
       "precio": "$300.00",
-      "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh471.png"
-    },
-    {
-      "id": "1529",
-      "titulo": "batman",
-      "precio": "$10000",
       "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh471.png"
     }
   ]

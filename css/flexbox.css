@@ -243,3 +243,19 @@
     }
 
 }
+
+/* ////////////cel  /////////////////  */ 
+@media only screen and (max-width: 360px) {
+
+    .productos {
+        background-color: red;
+        justify-content: center;
+         width: 90%;
+        height: 200px;
+    }
+
+    .card__container{
+        /*background-color: aqua;*/
+        height: 70%;
+    }
+}

@@ -109,3 +109,15 @@
     }
 
 }
+
+/* ///////////////CEL //////////////// */
+@media only screen and (max-width: 360px) {
+
+    .formulario {
+        background-color: yellow;
+        width: 100%;
+        height: 400px;
+        
+        
+    }
+}
