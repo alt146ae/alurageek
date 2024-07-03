@@ -262,7 +262,7 @@
         color: black;
     }
     .card__container {
-        background-color:aqua;
+        /*background-color:aqua;*/
         width: 330px;
         height: 300px;
         display: grid;
