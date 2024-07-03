@@ -253,6 +253,14 @@
         width: 360px;
         height: 330px;
     }
+
+    .productos h2 {
+
+        /*  background-color: green;*/
+        padding-top: -10px;
+        font-size: .2em;
+        color: black;
+    }
     .card__container {
         background-color:aqua;
         width: 330px;
@@ -262,10 +270,11 @@
         /* Dos columnas de igual tamaño */
         grid-template-rows: auto;
         /* Altura de las filas automática */
-        gap: 10px;
+        gap: 1px;
         /* Espacio entre los elementos */
         font-size: .5em;
         box-shadow: none;
+        overflow: auto;
         
     }
 
@@ -277,19 +286,37 @@
         width: 140px;
         margin-bottom: 50px;
     }
-    .productos h2 {
 
-        /*  background-color: green;*/
-        padding-top: -10px;
-        font-size: .2em;
-        color: black;
+    .descripcion-card {
+        /*background-color: red;*/
+        margin-top: -25px;
+        width: 90%;
+        font-size: .4em;
+        gap: 1px;
     }
+   
 
   
     .lego {
         width: 190px;
         height: 170px;
-        margin-left: 10px;
+        margin-left: -15px;
+    }
+    .item {
+        
+        padding: 2px;
+        /*border: 1px solid #ddd;*/
+        /*background-color: #f9f9f9;*/  
+        text-align: center;
+    
+    }
+
+    .item3 {
+        justify-self: right;
+        /* Alinea el tercer elemento a la derecha */
+        margin-top: -5px;
+        
+        width: 50px;
     }
 
 }
