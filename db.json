@@ -1,3 +1,10 @@
 {
-  "fotos": []
+  "fotos": [
+    {
+      "id": "9a50",
+      "titulo": "flash",
+      "precio": "$350.00",
+      "imagenpath": "https://img.bricklink.com/ItemImage/MN/0/sh087.original.png"
+    }
+  ]
 }
